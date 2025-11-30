@@ -1,0 +1,916 @@
+Candidate 3 REJECTED: Length 13
+Candidate 4: WWYMO97WUMVM77H6M (Digits: 0.29)
+Candidate 5 REJECTED: Length 10
+Error Text found but no NIK detected
+Scanning 15_jpg.rf.a49bfac5b070a60f33e73dd8e883f5bb_ktp_0.jpg... Candidate 0: 79OV77TOK7MBZFJA (Digits: 0.31)
+Candidate 1 REJECTED: Length 11
+Candidate 2 REJECTED: Length 21
+Candidate 3 REJECTED: Length 8
+Candidate 4 REJECTED: Length 3
+Candidate 5 REJECTED: Length 5
+Error Text found but no NIK detected
+Scanning 15_jpg.rf.b4052fabf3c3003041a5f51c49c28820_ktp_0.jpg... Candidate 0 REJECTED: Length 13
+Candidate 1 REJECTED: Length 11
+Candidate 2 REJECTED: Length 21
+Candidate 3: 4MWML97JKWUJYVTW (Digits: 0.19)
+Candidate 4 REJECTED: Length 8
+Candidate 5 REJECTED: Length 2
+Error Text found but no NIK detected
+Scanning 15_jpg.rf.e5d2a764cbff50a3be7a1b769f7e2c1a_ktp_0.jpg... Candidate 0: YW7NHWQIMHJAKAWTA (Digits: 0.06)
+Candidate 1 REJECTED: Length 11
+Candidate 2 REJECTED: Length 21
+Candidate 3 REJECTED: Length 8
+Candidate 4 REJECTED: Length 2
+Candidate 5 REJECTED: Length 5
+Error Text found but no NIK detected
+Scanning 160_jpg.rf.6f324722bd1f7dedff4a11a8a59ca145_ktp_0.jpg... Candidate 0: WW2OM71PMJ7MIJ1 (Digits: 0.33)
+Candidate 1 REJECTED: Length 22
+Candidate 2 REJECTED: Length 9
+Candidate 3 REJECTED: Length 11
+Candidate 4 REJECTED: Length 10
+Candidate 5 REJECTED: Length 7
+Error Text found but no NIK detected
+Scanning 160_jpg.rf.a533825fedfcc36cf827cf4d58517680_ktp_0.jpg... Candidate 0 REJECTED: Length 14
+Candidate 1 REJECTED: Length 22
+Candidate 2 REJECTED: Length 10
+Candidate 3 REJECTED: Length 9
+Candidate 4 REJECTED: Length 11
+Candidate 5 REJECTED: Length 9
+Error Text found but no NIK detected
+Scanning 160_jpg.rf.a5b534fa8d58db1e24ab7d8a1dd4a0ae_ktp_0.jpg... Candidate 0: WWJJP1FIUVRLFFW3 (Digits: 0.12)
+Candidate 1 REJECTED: Length 8
+Candidate 2 REJECTED: Length 22
+Candidate 3 REJECTED: Length 9
+Candidate 4 REJECTED: Length 9
+Candidate 5 REJECTED: Length 11
+Error Text found but no NIK detected
+Scanning 164_jpg.rf.efe3573ef266c1cca5bb755acc05cf89_ktp_0.jpg... Candidate 0 REJECTED: Length 25
+Candidate 1 REJECTED: Length 20
+Candidate 2 REJECTED: Length 20
+Candidate 3 REJECTED: Length 20
+Candidate 4 REJECTED: Length 28
+Candidate 5 REJECTED: Length 14
+Error Text found but no NIK detected
+Scanning 166_jpg.rf.2ff16b101eee1be210a57e86c9bf695a_ktp_0.jpg... Candidate 0: YH7WW441MWYAFW8MW (Digits: 0.29)
+Candidate 1: LAMWHA1FAW8AMW1 (Digits: 0.20)
+Candidate 2 REJECTED: Length 22
+Candidate 3 REJECTED: Length 14
+Candidate 4 REJECTED: Length 18
+Candidate 5: U4M4477MWWMMQBWW (Digits: 0.31)
+Error Text found but no NIK detected
+Scanning 166_jpg.rf.d79de0164594cbf2d47cac045aab91c3_ktp_0.jpg... Candidate 0: YH7WW441MWY8HW8MW (Digits: 0.35)
+Candidate 1 REJECTED: Length 14
+Candidate 2 REJECTED: Length 22
+Candidate 3 REJECTED: Length 11
+Candidate 4 REJECTED: Length 18
+Candidate 5 REJECTED: Length 10
+Error Text found but no NIK detected
+Scanning 166_jpg.rf.ecff82c70f87745907ffba9386958de5_ktp_0.jpg... Candidate 0 REJECTED: Length 18
+Candidate 1 REJECTED: Length 14
+Candidate 2 REJECTED: Length 22
+Candidate 3 REJECTED: Length 14
+Candidate 4 REJECTED: Length 20
+Candidate 5: OLUQG9TMKKLW2KOW (Digits: 0.12)
+Error Text found but no NIK detected
+Scanning 167_jpg.rf.46a28c7d8de8a27524037f0b08ebc73d_ktp_0.jpg... Candidate 0: Y47NH4I1WWFAEWIMW (Digits: 0.24)
+Candidate 1 REJECTED: Length 14
+Candidate 2 REJECTED: Length 23
+Candidate 3 REJECTED: Length 14
+Candidate 4 REJECTED: Length 2
+Candidate 5 REJECTED: Length 3
+Error Text found but no NIK detected
+Scanning 167_jpg.rf.580fa7c80a6cde3c9102b9b7f610749f_ktp_0.jpg... Candidate 0: 797NHZ41W9FKMW7MW (Digits: 0.41)
+Candidate 1: LMHH73HMBAMAWWWW (Digits: 0.12)
+Candidate 2 REJECTED: Length 22
+Candidate 3 REJECTED: Length 10
+Candidate 4 REJECTED: Length 2
+Candidate 5 REJECTED: Length 2
+Error Text found but no NIK detected
+Scanning 167_jpg.rf.ab3d6517d6111d8952054f272e18a69f_ktp_0.jpg... Candidate 0: Y47NH4I1WWFAEWIMW (Digits: 0.24)
+Candidate 1 REJECTED: Length 14
+Candidate 2 REJECTED: Length 23
+Candidate 3 REJECTED: Length 14
+Candidate 4 REJECTED: Length 2
+Candidate 5 REJECTED: Length 3
+Error Text found but no NIK detected
+Scanning 168_jpg.rf.254b272e4e6ef523d8d716075c0b27d6_ktp_0.jpg... Candidate 0 REJECTED: Length 21
+Candidate 1 REJECTED: Length 22
+Candidate 2 REJECTED: Length 7
+Candidate 3 REJECTED: Length 12
+Candidate 4 REJECTED: Length 11
+Candidate 5 REJECTED: Length 8
+Error Text found but no NIK detected
+Scanning 168_jpg.rf.54fb1a917f8aaf6f5446ac96196e0f02_ktp_0.jpg... Candidate 0 REJECTED: Length 21  
+Candidate 1 REJECTED: Length 12
+Candidate 2 REJECTED: Length 22
+Candidate 3 REJECTED: Length 1
+Candidate 4 REJECTED: Length 7
+Candidate 5 REJECTED: Length 6
+Error Text found but no NIK detected
+Scanning 168_jpg.rf.7c44dbc51445ddb88dfb1827a00142d9_ktp_0.jpg... Candidate 0 REJECTED: Length 21
+Candidate 1 REJECTED: Length 12
+Candidate 2 REJECTED: Length 22
+Candidate 3 REJECTED: Length 7
+Candidate 4 REJECTED: Length 12
+Candidate 5 REJECTED: Length 5
+Error Text found but no NIK detected
+Scanning 169-img-20210216-021807-1613416704039-1615181294451_jpg.rf.6324ff9d65540f308e653d1674e3a971_ktp_0.jpg... Candidate 0 REJECTED: Length 20
+Error Text found but no NIK detected
+Scanning 169-img-20210216-021807-1613416704039-1615181294451_jpg.rf.9eac9b03a3bbaa82d735c0f2acbe61aa_ktp_0.jpg... Candidate 0 REJECTED: Length 20
+Error Text found but no NIK detected
+Scanning 169-img-20210216-021807-1613416704039-1615181294451_jpg.rf.ea43c068df0552cd578b5a78fd1b43d5_ktp_0.jpg... Candidate 0 REJECTED: Length 20
+Error Text found but no NIK detected
+Scanning 169_jpg.rf.559bd46044afef3e385485ef109cd4e0_ktp_0.jpg... Candidate 0: PPITZRISHBA7LHLN (Digits: 0.06)
+Candidate 1 REJECTED: Length 14
+Candidate 2 REJECTED: Length 23
+Candidate 3 REJECTED: Length 19
+Candidate 4 REJECTED: Length 18
+Candidate 5 REJECTED: Length 19
+Error Text found but no NIK detected
+Scanning 169_jpg.rf.b551b55c8573578b383b1ec8bcbfd481_ktp_0.jpg... Candidate 0: PFK3VIM7J1LXKM37M (Digits: 0.29)
+Candidate 1: 9A6IHW8L7N7H71AK (Digits: 0.44)
+Candidate 2 REJECTED: Length 23
+Candidate 3 REJECTED: Length 19
+Candidate 4 REJECTED: Length 21
+Candidate 5: 472M17I7WWLMWFIWW (Digits: 0.35)
+Error Text found but no NIK detected
+Scanning 169_jpg.rf.d632c53c4869cb50cb434ef968f5b6eb_ktp_0.jpg... Candidate 0: HFMJMIM7J1LXNWH7M (Digits: 0.18)
+Candidate 1: 5PLIH7LL7W7771AK (Digits: 0.44)
+Candidate 2 REJECTED: Length 24
+Candidate 3 REJECTED: Length 21
+Candidate 4 REJECTED: Length 24
+Candidate 5 REJECTED: Length 24
+Error Text found but no NIK detected
+Scanning 16_jpg.rf.378ef17f2a9a726774446e462c03ebf2_ktp_0.jpg... Error No text bars found
+Scanning 16_jpg.rf.b9351822bba9dcffdd4cdb1640c1ce45_ktp_0.jpg... Error No text bars found
+Scanning 16_jpg.rf.c9dca12825d2f857dd4ed4ac6e638adf_ktp_0.jpg... Error No text bars found
+Scanning 170-ktphanson_jpg.rf.19883a05abc29de792f23d201510df42_ktp_0.jpg... Candidate 0 REJECTED: Length 18
+Candidate 1 REJECTED: Length 24
+Candidate 2 REJECTED: Length 10
+Candidate 3 REJECTED: Length 7
+Candidate 4 REJECTED: Length 12
+Candidate 5 REJECTED: Length 7
+Error Text found but no NIK detected
+Scanning 170-ktphanson_jpg.rf.73cc56e12f4febbdcec6ef947d94fca0_ktp_0.jpg... Candidate 0 REJECTED: Length 18
+Candidate 1 REJECTED: Length 24
+Candidate 2 REJECTED: Length 8
+Candidate 3 REJECTED: Length 7
+Candidate 4 REJECTED: Length 12
+Candidate 5 REJECTED: Length 6
+Error Text found but no NIK detected
+Scanning 170-ktphanson_jpg.rf.a5df8bf0e0a711fca3130cbf73c2765f_ktp_0.jpg... Candidate 0: WKWMF7LMAJFAOWW8 (Digits: 0.12)
+Candidate 1 REJECTED: Length 23
+Candidate 2 REJECTED: Length 7
+Candidate 3 REJECTED: Length 8
+Candidate 4 REJECTED: Length 12
+Error Text found but no NIK detected
+Scanning 170-ktphanson_jpg.rf.dad433220d4600503c36657fb1d4d9f0_ktp_0.jpg... Candidate 0 REJECTED: Length 18
+Candidate 1 REJECTED: Length 23
+Candidate 2 REJECTED: Length 10
+Candidate 3 REJECTED: Length 7
+Candidate 4 REJECTED: Length 12
+Error Text found but no NIK detected
+Scanning 170-ktphanson_jpg.rf.ea4d131a5161ae99ec8574c7a3da6a39_ktp_0.jpg... Candidate 0: WKWBWMIMAHIAUWWW (Digits: 0.00)
+Candidate 1 REJECTED: Length 9
+Candidate 2 REJECTED: Length 22
+Candidate 3 REJECTED: Length 9
+Candidate 4 REJECTED: Length 7
+Candidate 5 REJECTED: Length 10
+Error Text found but no NIK detected
+Scanning 170-ktphanson_jpg.rf.f9bdecf9358e1159ddb4363eab9b160c_ktp_0.jpg... Candidate 0 REJECTED: Length 20
+Candidate 1 REJECTED: Length 10
+Candidate 2 REJECTED: Length 21
+Candidate 3 REJECTED: Length 12
+Candidate 4 REJECTED: Length 9
+Candidate 5 REJECTED: Length 14
+Error Text found but no NIK detected
+Scanning 171-img-20210324-022549_jpg.rf.02acf77f4d2aac99f30630b17d9f73b0_ktp_0.jpg... Error No text bars found
+Scanning 171-img-20210324-022549_jpg.rf.123127ce5b4496d990c68af9af3e7058_ktp_0.jpg... Error No text bars found
+Scanning 171-img-20210324-022549_jpg.rf.6ca4ab930e8c9ce8cd05f9727750464d_ktp_0.jpg... Error No text bars found
+Scanning 171-img-20210324-022549_jpg.rf.7f532fb7bf5bd0b5739ab872e8fe40cb_ktp_0.jpg... Error No text bars found
+Scanning 171-img-20210324-022549_jpg.rf.a5c4d1b304667d990d87e9356f90f482_ktp_0.jpg... Error No text bars found
+Scanning 171-img-20210324-022549_jpg.rf.c6ceafbdf26ebe6031cdc3ef90bfca6f_ktp_0.jpg... Error No text bars found
+Scanning 171_jpg.rf.112aaba225ec4c0f871598a54aa947ad_ktp_0.jpg... Candidate 0 REJECTED: Length 8
+Candidate 1 REJECTED: Length 12
+Candidate 2 REJECTED: Length 1
+Error Text found but no NIK detected
+Scanning 171_jpg.rf.4400470d28bb47dd598d08dc30639a8b_ktp_0.jpg... Candidate 0 REJECTED: Length 6   
+Error Text found but no NIK detected
+Scanning 172_jpg.rf.014e2399db44ee67977998d5bb8bdfdd_ktp_0.jpg... Candidate 0: 7IIHM17RIJMWWMA (Digits: 0.20)
+Candidate 1 REJECTED: Length 14
+Candidate 2 REJECTED: Length 21
+Candidate 3: FR78MHYMI7LWHL1FM (Digits: 0.24)
+Candidate 4: WWWIWHY7WW1777PHW (Digits: 0.29)
+Candidate 5 REJECTED: Length 8
+Error Text found but no NIK detected
+Scanning 172_jpg.rf.017cfce78434c348d5b96e1c55570a66_ktp_0.jpg... Candidate 0 REJECTED: Length 19
+Candidate 1 REJECTED: Length 14
+Candidate 2 REJECTED: Length 21
+Candidate 3: EW2PMGYKILWWHF1FW (Digits: 0.12)
+Candidate 4: 7MWW77FWM7P7LW79W (Digits: 0.41)
+Candidate 5 REJECTED: Length 9
+Error Text found but no NIK detected
+Scanning 172_jpg.rf.41fdeb24e4905c41f677a892a4a26d81_ktp_0.jpg... Candidate 0 REJECTED: Length 14  
+Candidate 1 REJECTED: Length 14
+Candidate 2 REJECTED: Length 21
+Candidate 3: KRJAMHYMI7LWNL1PM (Digits: 0.12)
+Candidate 4: WWWIWHY7WW1F7WPHW (Digits: 0.18)
+Candidate 5 REJECTED: Length 8
+Error Text found but no NIK detected
+Scanning 173_jpg.rf.b6c1c93765b3f1b977bfdd885f1346d6_ktp_0.jpg... Candidate 0 REJECTED: Length 13
+Candidate 1 REJECTED: Length 10
+Candidate 2 REJECTED: Length 21
+Candidate 3 REJECTED: Length 9
+Candidate 4 REJECTED: Length 7
+Candidate 5 REJECTED: Length 7
+Error Text found but no NIK detected
+Scanning 173_jpg.rf.f24bc6e6e6ed563f31505a7091fb1e21_ktp_0.jpg... Candidate 0 REJECTED: Length 14
+Candidate 1 REJECTED: Length 13
+Candidate 2 REJECTED: Length 21
+Error Text found but no NIK detected
+Scanning 173_jpg.rf.f2cea38132fa09f4836b6e8d8f66078c_ktp_0.jpg... Candidate 0 REJECTED: Length 13
+Candidate 1 REJECTED: Length 12
+Candidate 2 REJECTED: Length 22
+Candidate 3 REJECTED: Length 9
+Candidate 4 REJECTED: Length 8
+Candidate 5 REJECTED: Length 9
+Error Text found but no NIK detected
+Scanning 174-ktp-amalia_jpg.rf.42913ce401347c70e4a656d068369482_ktp_0.jpg... Candidate 0 REJECTED: 
+Length 9
+Candidate 1 REJECTED: Length 7
+Candidate 2 REJECTED: Length 21
+Candidate 3 REJECTED: Length 5
+Error Text found but no NIK detected
+Scanning 174-ktp-amalia_jpg.rf.988dafccbd0eb67430fcc9a0e55b2c5c_ktp_0.jpg... Candidate 0 REJECTED: 
+Length 11
+Candidate 1 REJECTED: Length 13
+Candidate 2 REJECTED: Length 21
+Candidate 3 REJECTED: Length 4
+Error Text found but no NIK detected
+Scanning 174-ktp-amalia_jpg.rf.a131ee79b09d8968aa1145a07e111ee4_ktp_0.jpg... Candidate 0 REJECTED: 
+Length 11
+Candidate 1 REJECTED: Length 8
+Candidate 2 REJECTED: Length 21
+Candidate 3 REJECTED: Length 7
+Candidate 4 REJECTED: Length 6
+Error Text found but no NIK detected
+Scanning 174-ktp-amalia_jpg.rf.a68aa50ebc0a94459fe12001122756d4_ktp_0.jpg... Candidate 0 REJECTED: 
+Length 11
+Candidate 1 REJECTED: Length 6
+Candidate 2 REJECTED: Length 20
+Candidate 3 REJECTED: Length 3
+Candidate 4 REJECTED: Length 4
+Error Text found but no NIK detected
+Scanning 174-ktp-amalia_jpg.rf.ddf83b533d36cc051437f83835f5f646_ktp_0.jpg... Candidate 0 REJECTED: 
+Length 10
+Candidate 1 REJECTED: Length 7
+Candidate 2 REJECTED: Length 20
+Candidate 3 REJECTED: Length 3
+Candidate 4 REJECTED: Length 4
+Error Text found but no NIK detected
+Scanning 174-ktp-amalia_jpg.rf.f368c9111a89d2a21a606091096303c0_ktp_0.jpg... Candidate 0 REJECTED: 
+Length 11
+Candidate 1 REJECTED: Length 7
+Candidate 2 REJECTED: Length 21
+Candidate 3 REJECTED: Length 4
+Error Text found but no NIK detected
+Scanning 174_jpg.rf.96ca911ba32e38a6e2c8f80cd45d3c5c_ktp_0.jpg... Candidate 0: 7T4OH3MMJAMMMWA (Digits: 0.20)
+Candidate 1 REJECTED: Length 10
+Candidate 2 REJECTED: Length 21
+Candidate 3 REJECTED: Length 8
+Candidate 4 REJECTED: Length 8
+Error Text found but no NIK detected
+Scanning 174_jpg.rf.ca6e2f10405f0a03295b7b35a31b2572_ktp_0.jpg... Candidate 0: 7919UWU1MHJAKAMTA (Digits: 0.29)
+Candidate 1 REJECTED: Length 12
+Candidate 2 REJECTED: Length 21
+Candidate 3: WWUW417WWWL8W9H (Digits: 0.33)
+Candidate 4 REJECTED: Length 10
+Candidate 5 REJECTED: Length 11
+Error Text found but no NIK detected
+Scanning 174_jpg.rf.d80a6d3cf9a06e2f84d44e7d1294b554_ktp_0.jpg... Candidate 0: 7I1777IOKWMB8H3A (Digits: 0.44)
+Candidate 1 REJECTED: Length 12
+Candidate 2 REJECTED: Length 21
+Candidate 3 REJECTED: Length 14
+Candidate 4 REJECTED: Length 9
+Candidate 5 REJECTED: Length 10
+Error Text found but no NIK detected
+Scanning 175_jpg.rf.0050a609ec5531edba84efd3ffc84c99_ktp_0.jpg... Candidate 0 REJECTED: Length 18
+Candidate 1 REJECTED: Length 11
+Candidate 2 REJECTED: Length 20
+Candidate 3 REJECTED: Length 9
+Candidate 4 REJECTED: Length 10
+Candidate 5 REJECTED: Length 9
+Error Text found but no NIK detected
+Scanning 175_jpg.rf.5c71edb832e3e82830a6e5f609cc5f61_ktp_0.jpg... Candidate 0: YHLWHWI1W9WLMAMJ3 (Digits: 0.18)
+Candidate 1 REJECTED: Length 11
+Candidate 2 REJECTED: Length 21
+Candidate 3 REJECTED: Length 9
+Candidate 4 REJECTED: Length 12
+Candidate 5 REJECTED: Length 10
+Error Text found but no NIK detected
+Scanning 175_jpg.rf.d929b01aef69dbb96bf521cdf51606d3_ktp_0.jpg... Candidate 0 REJECTED: Length 18
+Candidate 1 REJECTED: Length 11
+Candidate 2 REJECTED: Length 20
+Candidate 3 REJECTED: Length 9
+Candidate 4 REJECTED: Length 9
+Candidate 5 REJECTED: Length 6
+Error Text found but no NIK detected
+Scanning 176-ktp-jpg_jpg.rf.2a313d263834471142bc54872b0ab9b1_ktp_0.jpg... Candidate 0 REJECTED: Length 23
+Error Text found but no NIK detected
+Scanning 176-ktp-jpg_jpg.rf.37f14a7d0e1abaa9d39582a572e17cb6_ktp_0.jpg... Candidate 0 REJECTED: Length 23
+Error Text found but no NIK detected
+Scanning 176-ktp-jpg_jpg.rf.ad4637a0df00ce967109267d4fc7fa83_ktp_0.jpg... Error No text bars found 
+Scanning 176-ktp-jpg_jpg.rf.cf3bd10b24f90f59053d8e8b4db5fa6c_ktp_0.jpg... Candidate 0 REJECTED: Length 23
+Error Text found but no NIK detected
+Scanning 176-ktp-jpg_jpg.rf.d5461fd62ca063da64753533e3af8168_ktp_0.jpg... Candidate 0 REJECTED: Length 20
+Error Text found but no NIK detected
+Scanning 176-ktp-jpg_jpg.rf.f13b6e9a877c3a8074a10e2c20baf7da_ktp_0.jpg... Candidate 0 REJECTED: Length 25
+Error Text found but no NIK detected
+Scanning 177_jpg.rf.0f6fc37b9586f0273adac035ff84cd27_ktp_0.jpg... Candidate 0: YFKJVIN7J1L3KW37M (Digits: 0.29)
+Candidate 1 REJECTED: Length 19
+Candidate 2 REJECTED: Length 22
+Candidate 3 REJECTED: Length 12
+Candidate 4: 79H74WWMM7WMAR3A (Digits: 0.38)
+Error Text found but no NIK detected
+Scanning 177_jpg.rf.b771e5fed0f01ff2c957c39b02891929_ktp_0.jpg... Candidate 0: YLKJVIN741LAND30V (Digits: 0.29)
+Candidate 1 REJECTED: Length 19
+Candidate 2 REJECTED: Length 22
+Candidate 3 REJECTED: Length 10
+Candidate 4: HY7OMM4WMH798MMM (Digits: 0.31)
+Candidate 5 REJECTED: Length 8
+Error Text found but no NIK detected
+Scanning 178-img-20211210-191025-1_jpg.rf.0ef83d45a3126e6d4e8f1db13b542eab_ktp_0.jpg... Error No text bars found
+Scanning 178-img-20211210-191025-1_jpg.rf.3eea3a791c958c7fe9a5c5c41159776b_ktp_0.jpg... Error No text bars found
+Scanning 178-img-20211210-191025-1_jpg.rf.687f8e2c1df0d1852c1ae40e80dee38f_ktp_0.jpg... Candidate 0 REJECTED: Length 18
+Error Text found but no NIK detected
+Scanning 178-img-20211210-191025-1_jpg.rf.6d8188070d54c13858787bb174398c31_ktp_0.jpg... Error No text bars found
+Scanning 178-img-20211210-191025-1_jpg.rf.944fda105a2adff41566df69533dac1d_ktp_0.jpg... Error No text bars found
+Scanning 178-img-20211210-191025-1_jpg.rf.99801e0f12fc4515610b840c17f626e4_ktp_0.jpg... Error No text bars found
+Scanning 178_jpg.rf.6d14f5b7268a8dc5955fc8aa2c5fb15c_ktp_0.jpg... Candidate 0: 7I7LWH1WMMJMWWM (Digits: 0.20)
+Candidate 1 REJECTED: Length 11
+Candidate 2 REJECTED: Length 1
+Candidate 3 REJECTED: Length 18
+Candidate 4: YYIUVKWJ47QM8WW (Digits: 0.20)
+Error Text found but no NIK detected
+Scanning 178_jpg.rf.acae5011f599349f4ca17e3cf8009643_ktp_0.jpg... Candidate 0: 717JI7I8MMRBWWME (Digits: 0.31)
+Candidate 1 REJECTED: Length 11
+Candidate 2: THI7IHMAIWWWWWWWW (Digits: 0.06)
+Candidate 3: YY1MV9YI47QB8MW (Digits: 0.33)
+Error Text found but no NIK detected
+Scanning 178_jpg.rf.c1030829152330abf3f46c3fa0384c62_ktp_0.jpg... Candidate 0: 7I7LWH1WMMJMWWM (Digits: 0.20)
+Candidate 1 REJECTED: Length 11
+Candidate 2 REJECTED: Length 18
+Candidate 3: YY1UVKWJ47QM8WW (Digits: 0.27)
+Error Text found but no NIK detected
+Scanning 179_jpg.rf.23e628bc9fe81a06b893bd168a957e16_ktp_0.jpg... Candidate 0: 7I32F7IIVMA1M5WW (Digits: 0.38)
+Candidate 1 REJECTED: Length 13
+Candidate 2 REJECTED: Length 22
+Candidate 3: 9MWWUW7PWPW77WT1 (Digits: 0.31)
+Candidate 4 REJECTED: Length 14
+Candidate 5 REJECTED: Length 10
+Error Text found but no NIK detected
+Scanning 179_jpg.rf.4cc25479a38b065dc4705f22f2ead898_ktp_0.jpg... Candidate 0: 7IJ4F7FAVMP8WFWM (Digits: 0.25)
+Candidate 1: 4YHHV7EW1JFELWW (Digits: 0.20)
+Candidate 2 REJECTED: Length 22
+Candidate 3: OP7ZMIJWIK7EWW8AT (Digits: 0.18)
+Candidate 4: 747WWPWPPWM17HHM (Digits: 0.31)
+Error Text found but no NIK detected
+Scanning 179_jpg.rf.af8817ccac8c7431c66b90e7cfadf741_ktp_0.jpg... Candidate 0: 7I7HMS1WVMWMWWW (Digits: 0.20)
+Candidate 1 REJECTED: Length 14
+Candidate 2 REJECTED: Length 22
+Candidate 3 REJECTED: Length 14
+Candidate 4 REJECTED: Length 14
+Candidate 5 REJECTED: Length 7
+Error Text found but no NIK detected
+Scanning 17_jpg.rf.52a95b7fcba3394efc0c5e3e18de54fe_ktp_0.jpg... Candidate 0 REJECTED: Length 14
+Candidate 1: MMKFAHIW8M3WUIC (Digits: 0.13)
+Candidate 2 REJECTED: Length 21
+Candidate 3 REJECTED: Length 4
+Candidate 4 REJECTED: Length 6
+Error Text found but no NIK detected
+Scanning 17_jpg.rf.f1f4137099c2a6edd9742567f5c0676b_ktp_0.jpg... Candidate 0 REJECTED: Length 14
+Candidate 1: LMIFAHIW8NGWUIC (Digits: 0.07)
+Candidate 2 REJECTED: Length 21
+Candidate 3 REJECTED: Length 4
+Candidate 4 REJECTED: Length 1
+Candidate 5 REJECTED: Length 6
+Error Text found but no NIK detected
+Scanning 17_jpg.rf.fffbcf580bdcc0c992f783ad2850a7d5_ktp_0.jpg... Candidate 0: MMLHMWZRZMHFL7W (Digits: 0.07)
+Candidate 1 REJECTED: Length 13
+Candidate 2 REJECTED: Length 21
+Candidate 3 REJECTED: Length 11
+Candidate 4 REJECTED: Length 4
+Candidate 5 REJECTED: Length 6
+Error Text found but no NIK detected
+Scanning 180-ktp-almas1_jpg.rf.1d6d7612ba159c015cf5fcc4843aa96a_ktp_0.jpg... Candidate 0 REJECTED: 
+Length 8
+Candidate 1 REJECTED: Length 10
+Candidate 2: 9MWWI779WW7SM9W (Digits: 0.40)
+Candidate 3 REJECTED: Length 8
+Candidate 4 REJECTED: Length 8
+Candidate 5 REJECTED: Length 14
+Error Text found but no NIK detected
+Scanning 180-ktp-almas1_jpg.rf.43297892507aac01a3a68b63db40f6eb_ktp_0.jpg... Candidate 0 REJECTED: 
+Length 9
+Candidate 1 REJECTED: Length 9
+Candidate 2 REJECTED: Length 14
+Candidate 3 REJECTED: Length 10
+Candidate 4 REJECTED: Length 12
+Candidate 5 REJECTED: Length 22
+Error Text found but no NIK detected
+Scanning 180-ktp-almas1_jpg.rf.6315a8a521cac7ffe064ea4425d27f05_ktp_0.jpg... Candidate 0 REJECTED: 
+Length 9
+Candidate 1 REJECTED: Length 8
+Candidate 2 REJECTED: Length 7
+Candidate 3 REJECTED: Length 11
+Candidate 4: MW4PH4W8LWLWWWWW (Digits: 0.19)
+Error Text found but no NIK detected
+Scanning 180-ktp-almas1_jpg.rf.a9978b6af795aa072d0a0fbe8c04de7e_ktp_0.jpg... Candidate 0 REJECTED: 
+Length 9
+Candidate 1 REJECTED: Length 9
+Candidate 2 REJECTED: Length 13
+Candidate 3 REJECTED: Length 7
+Candidate 4 REJECTED: Length 12
+Candidate 5 REJECTED: Length 13
+Error Text found but no NIK detected
+Scanning 180-ktp-almas1_jpg.rf.b3a3cd442841e8258a936fc1ecdfb80d_ktp_0.jpg... Candidate 0 REJECTED: 
+Length 7
+Candidate 1 REJECTED: Length 10
+Candidate 2: WMWMI779WM76M9W (Digits: 0.40)
+Candidate 3 REJECTED: Length 10
+Candidate 4 REJECTED: Length 8
+Candidate 5 REJECTED: Length 11
+Error Text found but no NIK detected
+Scanning 180-ktp-almas1_jpg.rf.b8f13f579b604ee9268f46797faef5dd_ktp_0.jpg... Candidate 0 REJECTED: 
+Length 9
+Candidate 1 REJECTED: Length 1
+Candidate 2 REJECTED: Length 9
+Candidate 3 REJECTED: Length 8
+Candidate 4 REJECTED: Length 12
+Candidate 5 REJECTED: Length 10
+Error Text found but no NIK detected
+Scanning 181-ktp2_jpg.rf.026e1dae4e144fa297dbc2765cd4e50c_ktp_0.jpg... Candidate 0: W4WVMWIOK7WBJF3R (Digits: 0.19)
+Candidate 1 REJECTED: Length 12
+Candidate 2 REJECTED: Length 22
+Error Text found but no NIK detected
+Scanning 181-ktp2_jpg.rf.3bf6538e6043e5fe9dc85e07d5452c86_ktp_0.jpg... Candidate 0: YKWVMWIUA7WB8F3M (Digits: 0.19)
+Candidate 1 REJECTED: Length 12
+Candidate 2 REJECTED: Length 22
+Error Text found but no NIK detected
+Scanning 181-ktp2_jpg.rf.828851c6d1490359bc127867b3283f27_ktp_0.jpg... Candidate 0: WKWVMWLOK7WB8F1B (Digits: 0.19)
+Candidate 1 REJECTED: Length 12
+Candidate 2 REJECTED: Length 22
+Error Text found but no NIK detected
+Scanning 181_jpg.rf.740cc111e2ecdcd481bc5b553c64429d_ktp_0.jpg... Candidate 0 REJECTED: Length 11
+Candidate 1 REJECTED: Length 10
+Candidate 2: MMBEGN9U88NHHLH3 (Digits: 0.25)
+Candidate 3 REJECTED: Length 8
+Candidate 4: NWIWW9IWWWWWWWW (Digits: 0.07)
+Candidate 5 REJECTED: Length 8
+Error Text found but no NIK detected
+Scanning 181_jpg.rf.765e304cd9195ac43712c6cb93e5a84f_ktp_0.jpg... Candidate 0 REJECTED: Length 13
+Candidate 1 REJECTED: Length 10
+Candidate 2: WWWBEZ7374WIIJOOJ (Digits: 0.24)
+Candidate 3 REJECTED: Length 8
+Candidate 4 REJECTED: Length 6
+Candidate 5 REJECTED: Length 5
+Error Text found but no NIK detected
+Scanning 181_jpg.rf.7e72b14906703ad0d7eb7b35cc1571f1_ktp_0.jpg... Candidate 0 REJECTED: Length 12  
+Candidate 1 REJECTED: Length 10
+Candidate 2: WWWBEZ7374LIIJMM1 (Digits: 0.29)
+Candidate 3 REJECTED: Length 8
+Candidate 4 REJECTED: Length 6
+Candidate 5 REJECTED: Length 6
+Error Text found but no NIK detected
+Scanning 183_jpg.rf.0730397a59befb0dd4fed17ecb78d5b6_ktp_0.jpg... Error No text bars found
+Scanning 183_jpg.rf.22e7452d9e094ee2c8e24a99009d5613_ktp_0.jpg... Error No text bars found
+Scanning 183_jpg.rf.620c1d9d33839321541150c0a16e38f2_ktp_0.jpg... Error No text bars found
+Scanning 185_jpg.rf.8ff074e888de6e005c93473770575334_ktp_0.jpg... Candidate 0 REJECTED: Length 4   
+Candidate 1 REJECTED: Length 7
+Candidate 2 REJECTED: Length 4
+Candidate 3 REJECTED: Length 8
+Candidate 4 REJECTED: Length 2
+Candidate 5 REJECTED: Length 1
+Error Text found but no NIK detected
+Scanning 185_jpg.rf.b423ad953d2484ec81eeb5ed8787f8cd_ktp_0.jpg... Candidate 0 REJECTED: Length 4
+Candidate 1 REJECTED: Length 5
+Candidate 2 REJECTED: Length 4
+Candidate 3 REJECTED: Length 7
+Candidate 4 REJECTED: Length 2
+Candidate 5 REJECTED: Length 1
+Error Text found but no NIK detected
+Scanning 185_jpg.rf.c287c4c73d2c74bbc3b2b1fd673d8f85_ktp_0.jpg... Candidate 0 REJECTED: Length 4   
+Candidate 1 REJECTED: Length 5
+Candidate 2 REJECTED: Length 5
+Candidate 3 REJECTED: Length 4
+Candidate 4 REJECTED: Length 2
+Candidate 5 REJECTED: Length 1
+Error Text found but no NIK detected
+Scanning 186-ktp-scan_jpg.rf.378db6340b883aca6c84954780549611_ktp_0.jpg... Candidate 0 REJECTED: Length 21
+Candidate 1 REJECTED: Length 11
+Candidate 2: 9WWHI774WVUJWMWW (Digits: 0.25)
+Candidate 3 REJECTED: Length 11
+Candidate 4 REJECTED: Length 6
+Error Text found but no NIK detected
+Scanning 186-ktp-scan_jpg.rf.7d7b641123a803dc42aa576861fb099f_ktp_0.jpg... Candidate 0 REJECTED: Length 21
+Candidate 1 REJECTED: Length 11
+Candidate 2: 7WMIMAY7WMK7IW0WW (Digits: 0.24)
+Candidate 3 REJECTED: Length 10
+Candidate 4 REJECTED: Length 6
+Error Text found but no NIK detected
+Scanning 186-ktp-scan_jpg.rf.85ce2a4f151bd48ae994251bd176f1db_ktp_0.jpg... Candidate 0 REJECTED: Length 21
+Candidate 1 REJECTED: Length 8
+Candidate 2: 9MMWW97WWULRW70 (Digits: 0.33)
+Candidate 3 REJECTED: Length 11
+Candidate 4 REJECTED: Length 6
+Error Text found but no NIK detected
+Scanning 186-ktp-scan_jpg.rf.8ba0dc07c5a4f7be8edeb09b60847335_ktp_0.jpg... Candidate 0 REJECTED: Length 21
+Candidate 1 REJECTED: Length 12
+Candidate 2: MY0LW67WWWL4WWFWW (Digits: 0.24)
+Candidate 3 REJECTED: Length 11
+Candidate 4 REJECTED: Length 7
+Error Text found but no NIK detected
+Scanning 186-ktp-scan_jpg.rf.d6b7c0d14e0ab0f63d0eb7915b14069a_ktp_0.jpg... Candidate 0 REJECTED: Length 21
+Candidate 1 REJECTED: Length 11
+Candidate 2: 9MWHI777WVFJIPPW (Digits: 0.25)
+Candidate 3 REJECTED: Length 11
+Candidate 4 REJECTED: Length 6
+Error Text found but no NIK detected
+Scanning 186-ktp-scan_jpg.rf.ec8698196efc570d8257ae84c707f7cc_ktp_0.jpg... Candidate 0 REJECTED: Length 21
+Candidate 1 REJECTED: Length 11
+Candidate 2: 7WMIMAY7WMK7IW0WW (Digits: 0.24)
+Candidate 3 REJECTED: Length 10
+Candidate 4 REJECTED: Length 6
+Error Text found but no NIK detected
+Scanning 186_jpg.rf.63484a624ff6609b95522d2c20733122_ktp_0.jpg... Candidate 0 REJECTED: Length 22
+Candidate 1 REJECTED: Length 23
+Candidate 2 REJECTED: Length 23
+Candidate 3 REJECTED: Length 8
+Error Text found but no NIK detected
+Scanning 186_jpg.rf.8c2e2c9e97b40a12058a9127ebaf982c_ktp_0.jpg... Candidate 0 REJECTED: Length 21  
+Candidate 1 REJECTED: Length 23
+Candidate 2 REJECTED: Length 23
+Candidate 3 REJECTED: Length 7
+Error Text found but no NIK detected
+Scanning 186_jpg.rf.e24d8a280940fccdfc4d5f8a2b4f4528_ktp_0.jpg... Candidate 0 REJECTED: Length 21  
+Candidate 1 REJECTED: Length 24
+Candidate 2 REJECTED: Length 22
+Candidate 3 REJECTED: Length 8
+Error Text found but no NIK detected
+Scanning 187_jpg.rf.42099965c3857272929c18676111ec21_ktp_0.jpg... Candidate 0: YHITZRZ1MKA2LM7M (Digits: 0.19)
+Candidate 1: 9AHLMUWHH4FIIUMWM (Digits: 0.12)
+Candidate 2 REJECTED: Length 22
+Candidate 3 REJECTED: Length 8
+Candidate 4: 7YVN777WWWWMMMM (Digits: 0.27)
+Candidate 5 REJECTED: Length 18
+Error Text found but no NIK detected
+Scanning 187_jpg.rf.acc974543b7a050e24218288351c56f4_ktp_0.jpg... Candidate 0: MFKJUIM2U1LAWW31M (Digits: 0.24)
+Candidate 1: KPLLMULW7J2IIOMJ7 (Digits: 0.18)
+Candidate 2 REJECTED: Length 22
+Candidate 3 REJECTED: Length 14
+Candidate 4: 97A99PWWWWWWFMW (Digits: 0.27)
+Candidate 5 REJECTED: Length 26
+Error Text found but no NIK detected
+Scanning 187_jpg.rf.c95fdca170bda1c99efb614976df51a7_ktp_0.jpg... Candidate 0: YHIIZRZKMBAFLM7M (Digits: 0.06)
+Candidate 1: 1AHLMULMH45IIUM41 (Digits: 0.29)
+Candidate 2 REJECTED: Length 22
+Candidate 3 REJECTED: Length 9
+Candidate 4: 7YYP417WWWWMMMM (Digits: 0.27)
+Candidate 5 REJECTED: Length 21
+Error Text found but no NIK detected
+Scanning 188-dok-baru-2020-06-24-18_jpg.rf.8f63e586158b2895df8c38fe9aaafe2d_ktp_0.jpg... Candidate 
+0 REJECTED: Length 19
+Candidate 1 REJECTED: Length 13
+Candidate 2 REJECTED: Length 5
+Candidate 3: IV9UW7WMWWWIO2W (Digits: 0.20)
+Candidate 4 REJECTED: Length 10
+Candidate 5 REJECTED: Length 11
+Error Text found but no NIK detected
+Scanning 188-dok-baru-2020-06-24-18_jpg.rf.a4922a01b57b6098014ffe6dd5ed076c_ktp_0.jpg... Candidate 
+0 REJECTED: Length 21
+Candidate 1 REJECTED: Length 13
+Candidate 2 REJECTED: Length 3
+Candidate 3: 49WH3W67MWWW7Y7PW (Digits: 0.41)
+Candidate 4 REJECTED: Length 12
+Candidate 5 REJECTED: Length 13
+Error Text found but no NIK detected
+Scanning 188-dok-baru-2020-06-24-18_jpg.rf.a71c54baf551d41486ec6ed83f4a6345_ktp_0.jpg... Candidate 
+0 REJECTED: Length 21
+Candidate 1 REJECTED: Length 13
+Candidate 2 REJECTED: Length 3
+Candidate 3: 49WH3W67MWWW7Y7PW (Digits: 0.41)
+Candidate 4 REJECTED: Length 12
+Candidate 5 REJECTED: Length 10
+Error Text found but no NIK detected
+Scanning 189_jpg.rf.311b784d3e868eb9288bfb4763daa950_ktp_0.jpg... Error No text bars found
+Scanning 189_jpg.rf.d3ea12cd45984cd9af698b44e238c499_ktp_0.jpg... Error No text bars found
+Scanning 189_jpg.rf.ec690c967a68ae4253fd1b35638d3260_ktp_0.jpg... Error No text bars found
+Scanning 18_jpg.rf.8d95d99ecb09f1f4a1d0fb7c399f26f8_ktp_0.jpg... Candidate 0 REJECTED: Length 9
+Candidate 1 REJECTED: Length 8
+Candidate 2 REJECTED: Length 21
+Candidate 3 REJECTED: Length 7
+Candidate 4 REJECTED: Length 11
+Candidate 5 REJECTED: Length 7
+Error Text found but no NIK detected
+Scanning 18_jpg.rf.b9640ea85e4e5dd5c59174bbb779632c_ktp_0.jpg... Candidate 0 REJECTED: Length 12
+Candidate 1 REJECTED: Length 7
+Candidate 2 REJECTED: Length 21
+Candidate 3 REJECTED: Length 11
+Candidate 4 REJECTED: Length 8
+Error Text found but no NIK detected
+Scanning 18_jpg.rf.d3d7d5f2e33b370d721a559406929420_ktp_0.jpg... Candidate 0 REJECTED: Length 9    
+Candidate 1 REJECTED: Length 7
+Candidate 2 REJECTED: Length 21
+Candidate 3 REJECTED: Length 5
+Candidate 4 REJECTED: Length 8
+Candidate 5 REJECTED: Length 8
+Error Text found but no NIK detected
+Scanning 190-20210412-175116-1_jpg.rf.216f0beb53c45bd63af284ac9a75db3f_ktp_0.jpg... Error No text bars found
+Scanning 190-20210412-175116-1_jpg.rf.2c3ec996b81b5b363952f721a2b67fc4_ktp_0.jpg... Error No text bars found
+Scanning 190-20210412-175116-1_jpg.rf.ce8f3466c02ff65d29db2a1048d836d1_ktp_0.jpg... Error No text bars found
+Scanning 190_jpg.rf.0e833688329794106c552ec0982cefe4_ktp_0.jpg... Candidate 0 REJECTED: Length 20
+Candidate 1 REJECTED: Length 10
+Candidate 2 REJECTED: Length 22
+Candidate 3 REJECTED: Length 5
+Candidate 4 REJECTED: Length 5
+Error Text found but no NIK detected
+Scanning 190_jpg.rf.57ed9ad992f4a3fb00c8094f63526894_ktp_0.jpg... Candidate 0 REJECTED: Length 19  
+Candidate 1 REJECTED: Length 10
+Candidate 2 REJECTED: Length 22
+Candidate 3 REJECTED: Length 5
+Candidate 4 REJECTED: Length 9
+Error Text found but no NIK detected
+Scanning 190_jpg.rf.bbfab7a269bb90b0c19b9c1e2fecbe3e_ktp_0.jpg... Candidate 0 REJECTED: Length 19
+Candidate 1 REJECTED: Length 10
+Candidate 2 REJECTED: Length 22
+Candidate 3 REJECTED: Length 5
+Candidate 4 REJECTED: Length 7
+Error Text found but no NIK detected
+Scanning 191-ktpsalsa_jpg.rf.aeb7a0d978d70d815996b547784f4648_ktp_0.jpg... Candidate 0: 7272T2220T1253327 (Digits: 0.88)
+Candidate 1 REJECTED: Length 10
+Candidate 2 REJECTED: Length 10
+Candidate 3 REJECTED: Length 6
+Candidate 4 REJECTED: Length 7
+NIK: 727222201253327
+Scanning 191-ktpsalsa_jpg.rf.babca1de83cd3d9f56c327d1620f8829_ktp_0.jpg... Candidate 0 REJECTED: Length 7
+Candidate 1 REJECTED: Length 8
+Error Text found but no NIK detected
+Scanning 191-ktpsalsa_jpg.rf.c4a75650a4dadbfe679d8e07d1db2049_ktp_0.jpg... Candidate 0 REJECTED: Length 12
+Candidate 1 REJECTED: Length 9
+Candidate 2 REJECTED: Length 9
+Candidate 3 REJECTED: Length 8
+Candidate 4 REJECTED: Length 3
+Candidate 5 REJECTED: Length 7
+Error Text found but no NIK detected
+Scanning 191-ktpsalsa_jpg.rf.cfb021265fae0f843e967447626aae15_ktp_0.jpg... Candidate 0 REJECTED: Length 4
+Candidate 1: F0F4797FP1PPVVP (Digits: 0.40)
+Candidate 2 REJECTED: Length 5
+Candidate 3 REJECTED: Length 6
+Candidate 4 REJECTED: Length 6
+Error Text found but no NIK detected
+Scanning 191-ktpsalsa_jpg.rf.d80d9ac905aa58ce12055e86fe170ddc_ktp_0.jpg... Candidate 0 REJECTED: Length 18
+Candidate 1 REJECTED: Length 14
+Candidate 2 REJECTED: Length 6
+Candidate 3 REJECTED: Length 7
+Error Text found but no NIK detected
+Scanning 191-ktpsalsa_jpg.rf.effd91752ff313738ef3909be66f6c8c_ktp_0.jpg... Candidate 0 REJECTED: Length 9
+Candidate 1 REJECTED: Length 5
+Error Text found but no NIK detected
+Scanning 191_jpg.rf.20a080d477a572007dd614e78ff9162b_ktp_0.jpg... Error No text bars found
+Scanning 191_jpg.rf.3ea392377be0c24e9994e5c5d7ffbb83_ktp_0.jpg... Candidate 0 REJECTED: Length 1
+Error Text found but no NIK detected
+Scanning 192_jpg.rf.8831c32a0e9cfaa5dc4bbe96a391efa2_ktp_0.jpg... Candidate 0: WW7WM97NIJMWJWA (Digits: 0.20)
+Candidate 1 REJECTED: Length 10
+Candidate 2 REJECTED: Length 21
+Candidate 3 REJECTED: Length 12
+Candidate 4 REJECTED: Length 11
+Error Text found but no NIK detected
+Scanning 192_jpg.rf.f187763c5eacbfa2b50b9074bf95cf32_ktp_0.jpg... Candidate 0 REJECTED: Length 12
+Candidate 1 REJECTED: Length 9
+Candidate 2 REJECTED: Length 21
+Candidate 3 REJECTED: Length 10
+Candidate 4 REJECTED: Length 4
+Candidate 5 REJECTED: Length 4
+Error Text found but no NIK detected
+Scanning 192_jpg.rf.f875210ebc1d49fbcbe4b9236247ae4a_ktp_0.jpg... Candidate 0 REJECTED: Length 12  
+Candidate 1 REJECTED: Length 9
+Candidate 2 REJECTED: Length 21
+Candidate 3 REJECTED: Length 10
+Candidate 4 REJECTED: Length 4
+Candidate 5 REJECTED: Length 4
+Error Text found but no NIK detected
+Scanning 193-ktp2_jpg.rf.889096c80fbf3f18857e651788145dc2_ktp_0.jpg... Candidate 0 REJECTED: Length 10
+Candidate 1 REJECTED: Length 10
+Candidate 2 REJECTED: Length 18
+Candidate 3 REJECTED: Length 10
+Error Text found but no NIK detected
+Scanning 193-ktp2_jpg.rf.d430aa2f089416fba02be2685b790c04_ktp_0.jpg... Candidate 0 REJECTED: Length 11
+Candidate 1 REJECTED: Length 12
+Candidate 2 REJECTED: Length 14
+Candidate 3 REJECTED: Length 11
+Error Text found but no NIK detected
+Scanning 193-ktp2_jpg.rf.e3b9e9d9b0d0a21e0f7e04ddd4f63844_ktp_0.jpg... Candidate 0 REJECTED: Length 10
+Candidate 1 REJECTED: Length 18
+Candidate 2 REJECTED: Length 9
+Candidate 3 REJECTED: Length 6
+Error Text found but no NIK detected
+Scanning 194-ktp-1_jpg.rf.0f2a95bc4aa0345d8dc74f9dbbd43b63_ktp_0.jpg... Candidate 0 REJECTED: Length 8
+Candidate 1 REJECTED: Length 7
+Candidate 2 REJECTED: Length 20
+Candidate 3 REJECTED: Length 9
+Candidate 4 REJECTED: Length 9
+Candidate 5 REJECTED: Length 7
+Error Text found but no NIK detected
+Scanning 194-ktp-1_jpg.rf.cbc63b19f787e9170c96d792a52d83ad_ktp_0.jpg... Candidate 0 REJECTED: Length 8
+Candidate 1 REJECTED: Length 9
+Candidate 2 REJECTED: Length 21
+Candidate 3 REJECTED: Length 13
+Candidate 4 REJECTED: Length 8
+Candidate 5 REJECTED: Length 2
+Error Text found but no NIK detected
+Scanning 194-ktp-1_jpg.rf.f13afaad78c6c3c7ff26e21a1cbc6a48_ktp_0.jpg... Candidate 0 REJECTED: Length 9
+Candidate 1 REJECTED: Length 9
+Candidate 2 REJECTED: Length 20
+Candidate 3 REJECTED: Length 10
+Candidate 4 REJECTED: Length 10
+Candidate 5 REJECTED: Length 7
+Error Text found but no NIK detected
+Scanning 194_jpg.rf.520d3e0a923a328a6f8a5b90ccd0bbd7_ktp_0.jpg... Candidate 0 REJECTED: Length 14
+Candidate 1 REJECTED: Length 12
+Candidate 2 REJECTED: Length 21
+Candidate 3 REJECTED: Length 8
+Candidate 4 REJECTED: Length 14
+Candidate 5 REJECTED: Length 8
+Error Text found but no NIK detected
+Scanning 194_jpg.rf.cb7beb724abaaf59f86fda05bf723993_ktp_0.jpg... Candidate 0 REJECTED: Length 13
+Candidate 1 REJECTED: Length 11
+Candidate 2 REJECTED: Length 21
+Candidate 3 REJECTED: Length 7
+Candidate 4 REJECTED: Length 10
+Candidate 5 REJECTED: Length 8
+Error Text found but no NIK detected
+Scanning 194_jpg.rf.d8bcb75f7dd860f280a2599c174156e6_ktp_0.jpg... Candidate 0: II3LM91AMJJM8W5 (Digits: 0.33)
+Candidate 1 REJECTED: Length 11
+Candidate 2 REJECTED: Length 21
+Candidate 3 REJECTED: Length 8
+Candidate 4 REJECTED: Length 12
+Candidate 5: 74IJ47WMWMWMMKW (Digits: 0.27)
+Error Text found but no NIK detected
+Scanning 195-kpt-reni-sukarni_jpg.rf.425bd1876141667e536fee6245b0b822_ktp_0.jpg... Candidate 0: WWWMW7LMTIHYW707W (Digits: 0.24)
+Candidate 1 REJECTED: Length 20
+Candidate 2 REJECTED: Length 20
+Error Text found but no NIK detected
+Scanning 195-kpt-reni-sukarni_jpg.rf.5370b345de11b0d7800f2ddafc25520c_ktp_0.jpg... Candidate 0 REJECTED: Length 18
+Candidate 1 REJECTED: Length 22
+Candidate 2 REJECTED: Length 21
+Error Text found but no NIK detected
+Scanning 195-kpt-reni-sukarni_jpg.rf.72a25c4172600bc0de061140fb4a1282_ktp_0.jpg... Candidate 0 REJECTED: Length 21
+Candidate 1 REJECTED: Length 21
+Candidate 2 REJECTED: Length 20
+Candidate 3 REJECTED: Length 9
+Candidate 4 REJECTED: Length 8
+Error Text found but no NIK detected
+Scanning 195_jpg.rf.a151442fc79219ba8f727b4e677d16d8_ktp_0.jpg... Candidate 0 REJECTED: Length 12
+Candidate 1 REJECTED: Length 7
+Candidate 2 REJECTED: Length 4
+Candidate 3 REJECTED: Length 13
+Error Text found but no NIK detected
+Scanning 196-img-20211230-081203_jpg.rf.555182ba2d9faf8a1ed5b4c6752eb8f3_ktp_0.jpg... Candidate 0 REJECTED: Length 13
+Candidate 1 REJECTED: Length 12
+Candidate 2 REJECTED: Length 21
+Candidate 3 REJECTED: Length 2
+Error Text found but no NIK detected
+Scanning 196-img-20211230-081203_jpg.rf.7570e92fc15f47f34782510623015321_ktp_0.jpg... Candidate 0: 
+WDFJWHJMELHWKMH (Digits: 0.00)
+Candidate 1 REJECTED: Length 10
+Candidate 2 REJECTED: Length 21
+Candidate 3 REJECTED: Length 2
+Error Text found but no NIK detected
+Scanning 196-img-20211230-081203_jpg.rf.9d5a54ca32f68f08f576ef178b756c2e_ktp_0.jpg... Candidate 0: 
+WHFWWHJMVLHWKMH (Digits: 0.00)
+Candidate 1 REJECTED: Length 11
+Candidate 2 REJECTED: Length 21
+Error Text found but no NIK detected
+Scanning 196-img-20211230-081203_jpg.rf.a5434acb5f7b7e635908d5e930f47ca5_ktp_0.jpg... Candidate 0: 
+WHP1WH3WYLWMEMH (Digits: 0.13)
+Candidate 1 REJECTED: Length 11
+Candidate 2 REJECTED: Length 21
+Error Text found but no NIK detected
+Scanning 196-img-20211230-081203_jpg.rf.ae3a11220b6fb15889c974d04ae165dd_ktp_0.jpg... Candidate 0 REJECTED: Length 11
+Candidate 1 REJECTED: Length 11
+Candidate 2 REJECTED: Length 21
+Error Text found but no NIK detected
+Scanning 196-img-20211230-081203_jpg.rf.c879d52b93e8329bf1b510228a85ab5e_ktp_0.jpg... Candidate 0: 
+WHH1WH3WYLWMEWH (Digits: 0.13)
+Candidate 1 REJECTED: Length 12
+Candidate 2 REJECTED: Length 21
+Error Text found but no NIK detected
+Scanning 196_jpg.rf.22a96daf7ceb210794d8159a245ba89f_ktp_0.jpg... Candidate 0 REJECTED: Length 20
+Candidate 1: KLL7X77LMLM7MW1M1 (Digits: 0.35)
+Candidate 2 REJECTED: Length 22
+Candidate 3 REJECTED: Length 9
+Candidate 4 REJECTED: Length 7
+Candidate 5 REJECTED: Length 7
+Error Text found but no NIK detected
+Scanning 196_jpg.rf.6426baf96bffa629cdb40ab086aaea03_ktp_0.jpg... Candidate 0 REJECTED: Length 19  
+Candidate 1: 67377LXMLI1OMW7 (Digits: 0.47)
+Candidate 2 REJECTED: Length 22
+Candidate 3 REJECTED: Length 9
+Candidate 4 REJECTED: Length 8
+Candidate 5 REJECTED: Length 3
+Error Text found but no NIK detected
+Scanning 196_jpg.rf.68ffbaf85f3517ddfcb688e2b0a719c8_ktp_0.jpg... Candidate 0: HPN7VZMWYJDTNU7UV (Digits: 0.12)
+Candidate 1 REJECTED: Length 14
+Candidate 2 REJECTED: Length 20
+Candidate 3 REJECTED: Length 9
+Candidate 4 REJECTED: Length 8
+Candidate 5 REJECTED: Length 3
+Error Text found but no NIK detected
+Scanning 197-ktp_jpg.rf.1bb7a5f1a3c7e8265aae0b80a7ba5ae2_ktp_0.jpg... Candidate 0 REJECTED: Length 
+14
+Candidate 1 REJECTED: Length 12
+Candidate 2 REJECTED: Length 20
+Candidate 3 REJECTED: Length 10
+Candidate 4: WWWF87M9WPMU9777 (Digits: 0.44)
+Candidate 5 REJECTED: Length 5
+Error Text found but no NIK detected
+Scanning 197-ktp_jpg.rf.ab11dd7e386db9e86314a2f14b156846_ktp_0.jpg... Candidate 0 REJECTED: Length 
+14
+Candidate 1 REJECTED: Length 12
+Candidate 2 REJECTED: Length 21
+Candidate 3 REJECTED: Length 8
+Candidate 4: WWWTA9WMWWH7I7 (Digits: 0.21)
+Candidate 5 REJECTED: Length 4
+Error Text found but no NIK detected
+Scanning 197-ktp_jpg.rf.ccc072f915cc9e5dfa6d0485fb5fcca4_ktp_0.jpg... Candidate 0: WWIHMI3RI1MWWWB 
+(Digits: 0.13)
+Candidate 1 REJECTED: Length 13
+Candidate 2 REJECTED: Length 21
+Candidate 3 REJECTED: Length 9
+Candidate 4: WWWF87M9WAMHA77F (Digits: 0.31)
+Candidate 5 REJECTED: Length 7
+Error Text found but no NIK detected
+Scanning 198-img-20220105-104240_jpg.rf.3e78bb83952a319593d969f4b30dd673_ktp_0.jpg... Candidate 0 REJECTED: Length 24
+Candidate 1 REJECTED: Length 11
+Candidate 2 REJECTED: Length 21
+Candidate 3 REJECTED: Length 12
+Candidate 4 REJECTED: Length 7
+Candidate 5 REJECTED: Length 7
+Error Text found but no NIK detected
+Scanning 198-img-20220105-104240_jpg.rf.5d2ec078a82d7de74d6fedba10e88ffc_ktp_0.jpg... Candidate 0 REJECTED: Length 23
+Candidate 1 REJECTED: Length 13
+Candidate 2 REJECTED: Length 22
+Candidate 3 REJECTED: Length 13
+Candidate 4 REJECTED: Length 8
+Candidate 5 REJECTED: Length 7
+Error Text found but no NIK detected
+Scanning 198-img-20220105-104240_jpg.rf.7b448ddcf4b2245ac5dfe702e2cf2b21_ktp_0.jpg... Candidate 0 REJECTED: Length 24
+Candidate 1 REJECTED: Length 11
+Candidate 2 REJECTED: Length 22
+Candidate 3 REJECTED: Length 10
+Candidate 4 REJECTED: Length 8
+Candidate 5 REJECTED: Length 7
+Error Text found but no NIK detected
+Scanning 198-img-20220105-104240_jpg.rf.84b21503810aab4f18558c091d52867c_ktp_0.jpg... Candidate 0 REJECTED: Length 23
+Candidate 1 REJECTED: Length 11
+Candidate 2 REJECTED: Length 22
+Candidate 3 REJECTED: Length 13
+Candidate 4 REJECTED: Length 8
+Candidate 5 REJECTED: Length 5
+Error Text found but no NIK detected
+Scanning 198-img-20220105-104240_jpg.rf.ca4168778508b97db3d9b61f1fdacbb0_ktp_0.jpg... Candidate 0 REJECTED: Length 23
+Candidate 1 REJECTED: Length 11
+Candidate 2 REJECTED: Length 22
+Candidate 3 REJECTED: Length 13
+Candidate 4 REJECTED: Length 8
+Candidate 5 REJECTED: Length 5
+Error Text found but no NIK detected
+Scanning 198-img-20220105-104240_jpg.rf.d49397f461abeb86ee88271ddd7ef527_ktp_0.jpg... Candidate 0 REJECTED: Length 24
+Candidate 1 REJECTED: Length 11
+Candidate 2 REJECTED: Length 22
+Candidate 3 REJECTED: Length 12
+Candidate 4 REJECTED: Length 9
+Candidate 5 REJECTED: Length 5
+Error Text found but no NIK detected
+Scanning 198_jpg.rf.3f27bb556a2aeb4d8d5a23be1984aa2e_ktp_0.jpg... Candidate 0: Y1UV7OIIMMA1WFJ3 (Digits: 0.25)
+Candidate 1 REJECTED: Length 21
+Candidate 2 REJECTED: Length 13
+Candidate 3 REJECTED: Length 5
+Error Text found but no NIK detected
+Scanning 198_jpg.rf.b1eb8ddd5054c1b5af1022109180ff4f_ktp_0.jpg... Candidate 0 REJECTED: Length 18
+Candidate 1 REJECTED: Length 9
+Candidate 2 REJECTED: Length 21
+Traceback (most recent call last):
+  File "C:\Users\Crealia\Documents\pbl stuff\ml_service\ocr_engine\test_kaggle.py", line 44, in <module>
+    test_kaggle()
+    ~~~~~~~~~~~^^
+  File "C:\Users\Crealia\Documents\pbl stuff\ml_service\ocr_engine\test_kaggle.py", line 31, in test_kaggle
+    result = ocr.scan(image_bytes)
+  File "C:\Users\Crealia\Documents\pbl stuff\ml_service\ocr_engine\ktp_scanner.py", line 123, in scan
+    char_imgs = self.segment_blob(roi)
+  File "C:\Users\Crealia\Documents\pbl stuff\ml_service\ocr_engine\ktp_scanner.py", line 91, in segment_blob
+    digit_imgs.append(self.resize_to_square(d))
+                      ~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\Crealia\Documents\pbl stuff\ml_service\ocr_engine\ktp_scanner.py", line 100, in resize_to_square
+    img_resized = cv2.resize(img, (nw, nh))
+cv2.error: OpenCV(4.12.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4211: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'

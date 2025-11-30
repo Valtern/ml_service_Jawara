@@ -4,14 +4,13 @@ import numpy as np
 import pickle
 import os
 import dlib
+from ocr_engine.ktp_scanner import KTPScanner
 
 app = FastAPI()
 
 ORB_FEATURES = 5000       
 MATCH_RATIO = 0.75        
-RANSAC_THRESH = 5.0      
-
-
+RANSAC_THRESH = 5.0       
 INLIER_THRESHOLD_PER_FRAME = 10 
 REQUIRED_CONSENSUS_VOTES = 2
 
@@ -20,6 +19,13 @@ MODEL_DIR = "models"
 detector = dlib.get_frontal_face_detector()
 orb = cv.ORB_create(nfeatures=ORB_FEATURES)
 bf = cv.BFMatcher(cv.NORM_HAMMING, crossCheck=False)
+
+
+try:
+    KTPScanner() 
+except Exception as e:
+    print(f"Warning: OCR Scanner failed to load: {e}")
+    ocr = None
 
 def adjust_gamma(image, gamma=1.5):
     invGamma = 1.0 / gamma
@@ -35,10 +41,8 @@ def process_image(image_bytes):
     img = cv.imdecode(nparr, cv.IMREAD_GRAYSCALE)
     if img is None: return None, None, 0.0
 
-    # 1. Strong Enhancement
     img = adjust_gamma(img, gamma=1.5)
 
-    # 2. Detection
     rects = detector(img, 1)
     if len(rects) == 0:
         img = cv.equalizeHist(img)
@@ -76,7 +80,6 @@ async def enroll_face(user_id: str = Form(...), files: list[UploadFile] = File(.
             kp_coords = [p.pt for p in kp]
             candidates.append({'des': des, 'kps': kp_coords, 'score': score})
     
-    # Sort by sharpness, keep top 25 (More samples = better chance of 2 votes)
     candidates.sort(key=lambda x: x['score'], reverse=True)
     best_faces = candidates[:25]
     
@@ -104,7 +107,6 @@ def compute_inliers(des_login, kp_login, stored_des, stored_kps):
         if m.distance < MATCH_RATIO * n.distance:
             good_matches.append(m)
     
-    # Relaxed minimum to attempt geometry
     if len(good_matches) < 6: return 0
 
     src_pts = np.float32([ kp_login[m.queryIdx].pt for m in good_matches ]).reshape(-1,1,2)
@@ -113,7 +115,6 @@ def compute_inliers(des_login, kp_login, stored_des, stored_kps):
     try:
         M, mask = cv.findHomography(src_pts, dst_pts, cv.RANSAC, RANSAC_THRESH)
         if mask is not None:
-            # Determinant check (0.5 - 2.0 range)
             det = np.linalg.det(M[0:2, 0:2])
             if det < 0.5 or det > 2.0: return 0 
             return sum(mask.ravel().tolist())
@@ -144,7 +145,6 @@ async def verify_face(user_id: str = Form(...), file: UploadFile = File(...)):
     for i, sample in enumerate(enrolled_faces):
         score = compute_inliers(des_login, kp_login, sample['des'], sample['kps'])
         
-        # Log all non-zero scores for debugging
         if score > 5:
             print(f"  Sample {i}: Score {score}")
 
@@ -154,7 +154,6 @@ async def verify_face(user_id: str = Form(...), file: UploadFile = File(...)):
 
     print(f"Votes: {votes} (Required: {REQUIRED_CONSENSUS_VOTES}) | Total Score: {total_score_sum}")
 
-
     is_match = (votes >= REQUIRED_CONSENSUS_VOTES) or (total_score_sum > 35 and votes >= 1)
 
     return {
@@ -162,3 +161,24 @@ async def verify_face(user_id: str = Form(...), file: UploadFile = File(...)):
         "match": is_match,
         "score": votes
     }
+
+@app.post("/scan-ktp")
+async def scan_ktp(file: UploadFile = File(...)):
+    if ocr is None:
+        return {"status": "error", "message": "OCR Engine not loaded"}
+
+    print("Received KTP Scan Request...")
+    content = await file.read()
+    
+    try:
+        result = ocr.scan(content)
+        print(f"OCR Result: {result}")
+        
+        if result["success"]:
+            return {"status": "success", "data": result}
+        else:
+            return {"status": "failed", "message": result["message"]}
+            
+    except Exception as e:
+        print(f"OCR Error: {e}")
+        return {"status": "error", "message": str(e)}
