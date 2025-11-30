@@ -1,7 +1,9 @@
+# Model files
+models/
+
+# OCR datasets and outputs
 ocr_engine/dataset/
-ml_service/models/
-ocr_engine\dataset
-models
-ocr_engine/0
-ml_service/__pycache__/
-C:\Users\Crealia\Documents\pbl stuff\ml_service\models
+ocr_engine/0/
+
+# Extracted files
+Extracted/
