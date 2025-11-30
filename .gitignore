@@ -1,4 +1,5 @@
 ocr_engine/dataset/
 ml_service/models/
+models/
 ocr_engine/0
 ml_service/__pycache__/
