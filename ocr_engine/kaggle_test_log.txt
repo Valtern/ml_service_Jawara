@@ -1,0 +1,11 @@
+--- Testing Scanner on Kaggle Data ---
+Reading from: C:\Users\Crealia\Documents\pbl stuff\ml_service\ocr_engine\0
+Scanner loaded successfully.
+Found 4825 images.
+[1/4825] Scanning 103_jpg.rf.095a1043937fa300847e77a2bb26d77c_ktp_0.jpg... Success NIK: 3272061503830011
+[2/4825] Scanning 103_jpg.rf.164c8de4bbaf6855d630b1312b08c82b_ktp_0.jpg... Success NIK: 3272061503830011
+[3/4825] Scanning 103_jpg.rf.1ebeee8b2d5f896f697f98f27f65a092_ktp_0.jpg... Success NIK: 3272061503830011
+[4/4825] Scanning 107_jpg.rf.676b270cc5bd5c978b85eab181aa7d4a_ktp_0.jpg... Fail NIK not found
+[5/4825] Scanning 107_jpg.rf.f3a0f3168221d5ca31940507c0963a28_ktp_0.jpg... Success NIK: 1801150501860001
+[6/4825] Scanning 108-paralegal-internship-id-card-rafika-rosmalida_jpg.rf.1c113652edede0ab1400a5f89ff1593f_ktp_0.jpg... Fail NIK not found
+[7/4825] Scanning 108-paralegal-internship-id-card-rafika-rosmalida_jpg.rf.29fd94020646e09a68a0e893e147a7c5_ktp_0.jpg... 
