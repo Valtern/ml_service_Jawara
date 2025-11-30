@@ -1,158 +1,176 @@
 import cv2
 import numpy as np
-import os
+import easyocr
+import re
+import base64
+import dlib
+from difflib import SequenceMatcher
 
 class KTPScanner:
-    def __init__(self, template_dir="ocr_engine/templates"):
-        self.templates = {}
-        self.load_templates(template_dir)
-
-    def load_templates(self, template_dir):
-        # Fallback if path is relative to main.py vs direct execution
-        if not os.path.exists(template_dir):
-            if os.path.exists("templates"):
-                template_dir = "templates"
-            elif os.path.exists("ocr_engine/templates"):
-                template_dir = "ocr_engine/templates"
-        
-        print(f"Loading templates from: {os.path.abspath(template_dir)}")
-        
-        for i in range(10):
-            path = os.path.join(template_dir, f"{i}.jpg")
-            if os.path.exists(path):
-                self.templates[str(i)] = cv2.imread(path, cv2.IMREAD_GRAYSCALE)
-            else:
-                print(f"Warning: Template {i}.jpg not found at {path}")
+    def __init__(self, template_dir=None):
+        print("--- LOADING KTP SCANNER V14 (Direct Portrait) ---")
+        self.reader = easyocr.Reader(['id', 'en'], gpu=True)
+        self.detector = dlib.get_frontal_face_detector()
 
     def preprocess_image(self, img):
-        target_width = 1000 
+        target_width = 1000
         h, w = img.shape[:2]
         scale = target_width / w
         img = cv2.resize(img, (target_width, int(h * scale)))
+
+        gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
         
-        if len(img.shape) == 3:
-            gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+        # Denoise + Sharpen (Good for flash glare)
+        gray = cv2.fastNlMeansDenoising(gray, None, 10, 7, 21)
+        kernel = np.array([[0, -1, 0], [-1, 5,-1], [0, -1, 0]])
+        gray = cv2.filter2D(gray, -1, kernel)
+
+        return img, gray
+
+    def clean_nik(self, text):
+        # Convert lookalikes to numbers
+        replacements = {
+            'O': '0', 'D': '0', 'Q': '0', 'U': '0', 'C': '0', 'o': '0',
+            'L': '1', 'I': '1', '!': '1', '|': '1', 'l': '1', 'i': '1',
+            'Z': '2', '?': '7', 'T': '7', '/': '7',
+            'S': '5', '$': '5', 's': '5',
+            'G': '6', 'b': '6',
+            'B': '8', '&': '8',
+            'g': '9', 'q': '9', 'P': '9'
+        }
+        
+        text = text.upper()
+        clean = ""
+        digit_count = 0
+        
+        for char in text:
+            if char.isdigit():
+                clean += char
+                digit_count += 1
+            elif char in replacements:
+                clean += replacements[char]
+                digit_count += 1
+                
+        # NIK must be 16 digits. We allow 15-17 and pad/trim.
+        if len(clean) >= 15 and len(clean) <= 17 and digit_count >= 13:
+            # Ensure it starts with a valid province digit (1-9), not 0
+            if clean[0] == '0': return None 
+            return clean[:16]
+            
+        return None
+
+    def extract_face(self, img):
+        gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+        rects = self.detector(gray, 1)
+        
+        face_img = None
+        
+        if len(rects) > 0:
+            rect = max(rects, key=lambda r: r.width() * r.height())
+            x, y, w, h = rect.left(), rect.top(), rect.width(), rect.height()
+            
+            pad_w = int(w * 0.25)
+            pad_h = int(h * 0.4)
+            
+            y1 = max(0, y - pad_h)
+            y2 = min(img.shape[0], y + h + pad_h)
+            x1 = max(0, x - pad_w)
+            x2 = min(img.shape[1], x + w + pad_w)
+            
+            face_img = img[y1:y2, x1:x2]
         else:
-            gray = img
+            # Fallback: Fixed Crop (Right side)
+            h, w = img.shape[:2]
+            face_x = int(w * 0.65)
+            face_y = int(h * 0.15)
+            face_w = int(w * 0.32)
+            face_h = int(h * 0.65)
             
-        kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (25, 25))
-        blackhat = cv2.morphologyEx(gray, cv2.MORPH_BLACKHAT, kernel)
-        grad = cv2.addWeighted(gray, 1.0, blackhat, 0.5, 0)
-        
-        return img, cv2.GaussianBlur(grad, (3,3), 0)
-
-    def get_candidate_regions(self, gray_img):
-        h_img, w_img = gray_img.shape
-        
-        thresh = cv2.adaptiveThreshold(gray_img, 255, 
-            cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY_INV, 25, 15)
-
-        k_w = int(w_img / 25) 
-        kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (k_w, 3))
-        connected = cv2.morphologyEx(thresh, cv2.MORPH_CLOSE, kernel)
-
-        contours, _ = cv2.findContours(connected, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
-        candidates = []
-
-        for c in contours:
-            x, y, w, h = cv2.boundingRect(c)
-            aspect_ratio = w / float(h)
+            # Safety bounds
+            face_x = max(0, min(face_x, w - 10))
+            face_y = max(0, min(face_y, h - 10))
+            face_w = min(face_w, w - face_x)
+            face_h = min(face_h, h - face_y)
             
-            if 6.0 < aspect_ratio < 25.0:
-                if w_img * 0.25 < w < w_img * 0.95:
-                    if y < h_img * 0.6:
-                        candidates.append((x, y, w, h))
-        
-        candidates.sort(key=lambda b: b[1])
-        return candidates[:5]
+            face_img = img[face_y:face_y+face_h, face_x:face_x+face_w]
 
-    def match_templates(self, roi_gray):
-        roi_h, roi_w = roi_gray.shape
-        
-        # Resize ROI to a standard height for matching
-        target_height = 40
-        scale = target_height / roi_h
-        target_width = int(roi_w * scale)
-        
-        roi_resized = cv2.resize(roi_gray, (target_width, target_height))
-        
-        # Binarize for clean matching
-        roi_thresh = cv2.threshold(roi_resized, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)[1]
-
-        detected_digits = []
-
-        for char, template in self.templates.items():
-            if template is None: continue
-            
-            t_h, t_w = template.shape
-            
-            # Scale template to match ROI height (~85%)
-            aspect = t_w / t_h
-            new_h = int(target_height * 0.85) 
-            new_w = int(new_h * aspect)
-            t_resized = cv2.resize(template, (new_w, new_h))
-            
-            # Template Match
-            res = cv2.matchTemplate(roi_thresh, t_resized, cv2.TM_CCOEFF_NORMED)
-            
-            threshold = 0.60 
-            loc = np.where(res >= threshold)
-            
-            for pt in zip(*loc[::-1]):
-                detected_digits.append((pt[0], res[pt[1], pt[0]], char))
-
-        if not detected_digits: return ""
-
-        # Sort by confidence
-        detected_digits.sort(key=lambda x: x[1], reverse=True)
-        
-        final_digits = []
-        taken_mask = np.zeros(target_width)
-        
-        digit_width = int(target_height * 0.6) 
-
-        # Non-Maximum Suppression (Remove duplicate matches in same spot)
-        for x, score, char in detected_digits:
-            start = max(0, x)
-            end = min(target_width, x + digit_width)
-            
-            overlap = np.mean(taken_mask[start:end])
-            if overlap < 0.2: 
-                final_digits.append((x, char))
-                taken_mask[start:end] = 1
-
-        # Sort Left-to-Right
-        final_digits.sort(key=lambda x: x[0])
-        
-        return "".join([x[1] for x in final_digits])
+        if face_img is not None and face_img.size > 0:
+            _, buffer = cv2.imencode('.jpg', face_img)
+            return base64.b64encode(buffer).decode('utf-8')
+        return None
 
     def scan(self, image_bytes):
         nparr = np.frombuffer(image_bytes, np.uint8)
         img = cv2.imdecode(nparr, cv2.IMREAD_COLOR)
         if img is None: return {"success": False, "message": "Invalid image"}
 
-        original, gray = self.preprocess_image(img)
-        candidates = self.get_candidate_regions(gray)
+        # Only preprocess (resize/sharpen), NO ROTATION LOOP
+        img, gray = self.preprocess_image(img)
         
-        if not candidates:
-            return {"success": False, "message": "No text bars found"}
-
-        best_nik = None
+        # 1. Run EasyOCR
+        results = self.reader.readtext(img, detail=0)
         
-        for i, (x, y, w, h) in enumerate(candidates):
-            roi = gray[y:y+h, x:x+w]
-            
-            text = self.match_templates(roi)
-            
-            # Basic validation
-            if len(text) >= 14 and len(text) <= 18:
-                best_nik = text
-                # Debug output
-                if not os.path.exists("debug_output"): os.makedirs("debug_output")
-                cv2.imwrite(f"debug_output/nik_match_{i}.jpg", roi)
+        nik = None
+        name = None
+        gender = None
+        
+        # 2. Global Search for NIK (Handles split lines)
+        # Combine all text to handle cases like ["NIK", ":", "3372..."]
+        full_blob = "".join(results).replace(" ", "")
+        
+        # Try to find NIK in the full blob using Regex
+        # We look for 16 digits, allowing some common OCR errors
+        potential_niks = re.findall(r'[0-9OIl\?]{16}', full_blob.upper())
+        for cand in potential_niks:
+            cleaned = self.clean_nik(cand)
+            if cleaned:
+                nik = cleaned
                 break
+        
+        # Fallback: Check line by line if regex failed
+        if not nik:
+            for line in results:
+                cleaned = self.clean_nik(line)
+                if cleaned:
+                    nik = cleaned
+                    break
 
-        if best_nik:
-            return {"success": True, "nik": best_nik}
+        # 3. Find Name (Look for NAMA)
+        for i, line in enumerate(results):
+            if "NAMA" in line.upper():
+                # Try next line first (most common layout)
+                if i + 1 < len(results):
+                    candidate = results[i+1]
+                    if ":" not in candidate and len(candidate) > 3:
+                        name = re.sub(r'[^A-Z\s]', '', candidate.upper()).strip()
+                        break
+                
+                # Try same line
+                if ":" in line:
+                    candidate = line.split(":")[1]
+                    if len(candidate) > 3:
+                        name = re.sub(r'[^A-Z\s]', '', candidate.upper()).strip()
+                        break
+        
+        # 4. Find Gender
+        full_str = " ".join(results).upper()
+        if "LAKI" in full_str:
+            gender = "Laki-laki"
+        elif "PEREMPUAN" in full_str or "PUAN" in full_str:
+            gender = "Perempuan"
 
-        return {"success": False, "message": "Text found but no NIK detected"}
+        # 5. Extract Face (Always try, even if NIK fails, for debugging)
+        face_b64 = self.extract_face(img)
+
+        if nik:
+            return {
+                "success": True,
+                "nik": nik,
+                "name": name,
+                "gender": gender,
+                "face_image": face_b64
+            }
+        
+        # Return partial success if we found a face but no NIK? 
+        # No, Flutter needs NIK. Return fail.
+        return {"success": False, "message": "NIK not found. Ensure clear text."}

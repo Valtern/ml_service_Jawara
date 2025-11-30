@@ -6,7 +6,7 @@ import shutil
 
 OUTPUT_DIR = "templates"
 FONTS_DIR = "fonts"
-IMG_HEIGHT = 64 
+IMG_HEIGHT = 45 
 
 FONT_NIK = os.path.join(FONTS_DIR, "OCRAEXT.TTF")
 
@@ -16,7 +16,7 @@ def main():
     os.makedirs(OUTPUT_DIR)
 
     try:
-        font = ImageFont.truetype(FONT_NIK, 48)
+        font = ImageFont.truetype(FONT_NIK, 36)
     except IOError:
         return
 
@@ -37,10 +37,11 @@ def main():
 
         img_np = np.array(image)
         coords = cv2.findNonZero(img_np)
-        x, y, w, h = cv2.boundingRect(coords)
-        crop = img_np[y:y+h, x:x+w]
         
-        cv2.imwrite(f"{OUTPUT_DIR}/{char}.jpg", crop)
+        if coords is not None:
+            x, y, w, h = cv2.boundingRect(coords)
+            crop = img_np[y:y+h, x:x+w]
+            cv2.imwrite(f"{OUTPUT_DIR}/{char}.jpg", crop)
 
 if __name__ == "__main__":
     main()

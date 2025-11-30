@@ -4,7 +4,7 @@ import shutil
 import sys
 from ktp_scanner import KTPScanner
 
-KAGGLE_DIR = "0"
+KAGGLE_DIR = "0" 
 OUTPUT_DIR = "kaggle_results"
 LOG_FILE = "kaggle_test_log.txt"
 
@@ -30,10 +30,11 @@ def test_kaggle():
     
     if not os.path.exists(OUTPUT_DIR): os.makedirs(OUTPUT_DIR)
     
+    # Initialize Scanner
     try:
-        # UPDATED: No model_path needed. 
-        # Points to "templates" folder relative to this script
+        # FIXED: Removed 'model_path', added 'template_dir'
         ocr = KTPScanner(template_dir="templates")
+        print("Scanner loaded successfully.")
     except Exception as e:
         print(f"CRITICAL ERROR: Could not load scanner. {e}")
         return
@@ -60,19 +61,20 @@ def test_kaggle():
             result = ocr.scan(image_bytes)
             
             if result["success"]:
-                print(f"✅ NIK: {result['nik']}")
+                print(f"Success NIK: {result['nik']}")
                 success_count += 1
                 shutil.copy(path, os.path.join(OUTPUT_DIR, f"SUCCESS_{result['nik']}_{filename}"))
             else:
-                print(f"❌ {result['message']}")
+                print(f"Fail {result['message']}")
         except Exception as e:
-            print(f"🔥 CRASH: {e}")
+            print(f" CRASH: {e}")
             error_count += 1
             
     print(f"\n--- TEST COMPLETE ---")
     print(f"Total: {len(files)}")
     print(f"Success: {success_count} ({success_count/len(files)*100:.1f}%)")
     print(f"Crashes: {error_count}")
+    print(f"Logs saved to {LOG_FILE}")
 
 if __name__ == "__main__":
     test_kaggle()

@@ -20,9 +20,8 @@ detector = dlib.get_frontal_face_detector()
 orb = cv.ORB_create(nfeatures=ORB_FEATURES)
 bf = cv.BFMatcher(cv.NORM_HAMMING, crossCheck=False)
 
-
 try:
-    KTPScanner() 
+    ocr = KTPScanner() 
 except Exception as e:
     print(f"Warning: OCR Scanner failed to load: {e}")
     ocr = None
@@ -140,13 +139,12 @@ async def verify_face(user_id: str = Form(...), file: UploadFile = File(...)):
     votes = 0
     total_score_sum = 0
     
-    print(f"--- Verifying User {user_id} ---")
-    
     for i, sample in enumerate(enrolled_faces):
         score = compute_inliers(des_login, kp_login, sample['des'], sample['kps'])
         
         if score > 5:
-            print(f"  Sample {i}: Score {score}")
+            # print(f"  Sample {i}: Score {score}")
+            pass
 
         if score >= INLIER_THRESHOLD_PER_FRAME:
             votes += 1
@@ -172,7 +170,13 @@ async def scan_ktp(file: UploadFile = File(...)):
     
     try:
         result = ocr.scan(content)
-        print(f"OCR Result: {result}")
+        
+        # Create a Clean Log (Hide the Base64 Image)
+        log_result = result.copy()
+        if "face_image" in log_result and log_result["face_image"]:
+            log_result["face_image"] = "[BASE64_IMAGE_DATA_HIDDEN]"
+            
+        print(f"OCR Result: {log_result}")
         
         if result["success"]:
             return {"status": "success", "data": result}
