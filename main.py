@@ -185,3 +185,46 @@ async def scan_ktp(file: UploadFile = File(...)):
     except Exception as e:
         print(f"OCR Error: {e}")
         return {"status": "error", "message": str(e)}
+
+@app.post("/verify-identity")
+async def verify_identity(user_id: str = Form(...), file: UploadFile = File(...)):
+
+    model_path = os.path.join(MODEL_DIR, f"user_{user_id}.pkl")
+    if not os.path.exists(model_path):
+        return {"status": "failed", "message": "User not enrolled"}
+
+    with open(model_path, 'rb') as f:
+        enrolled_faces = pickle.load(f)
+
+    content = await file.read()
+    kp_login, des_login, _ = process_image(content)
+    
+    if des_login is None:
+        return {"status": "failed", "message": "No face detected in KTP photo"}
+
+    votes = 0
+    best_score = 0
+    
+    IDENTITY_VOTE_THRESHOLD = 1 
+    IDENTITY_INLIER_THRESHOLD = 10 
+    
+    print(f"Checking Identity (KTP) for User {user_id}")
+    
+    for i, sample in enumerate(enrolled_faces):
+        score = compute_inliers(des_login, kp_login, sample['des'], sample['kps'])
+        
+        if score > best_score: best_score = score
+
+        if score >= IDENTITY_INLIER_THRESHOLD:
+            votes += 1
+            print(f"  KTP matched Frame {i} ({score} inliers)")
+
+    print(f"Identity Check: {votes} votes. Best Score: {best_score}")
+
+    is_match = votes >= IDENTITY_VOTE_THRESHOLD
+
+    return {
+        "status": "success",
+        "match": is_match,
+        "score": best_score
+    }       
