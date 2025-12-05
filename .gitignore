@@ -1,6 +1,9 @@
 models/*
 
+!models/haarcascade_frontalface_default.xml
+
 !models/
+
 
 # OCR datasets and outputs
 ocr_engine/dataset/
@@ -9,3 +12,5 @@ ocr_engine/kaggle_results
 
 # Extracted files
 Extracted/
+
+debug_output/*
