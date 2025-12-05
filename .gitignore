@@ -12,3 +12,4 @@ ocr_engine/kaggle_results
 Extracted/
 
 debug_output/*
+__pycache__/ *.pyc
