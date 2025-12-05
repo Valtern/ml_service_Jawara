@@ -9,10 +9,11 @@ from ocr_engine.ktp_scanner import KTPScanner
 app = FastAPI()
 
 ORB_FEATURES = 5000       
-MATCH_RATIO = 0.75        
-RANSAC_THRESH = 5.0       
-INLIER_THRESHOLD_PER_FRAME = 10 
-REQUIRED_CONSENSUS_VOTES = 2
+MATCH_RATIO = 0.70        
+RANSAC_THRESH = 4.0       
+
+INLIER_THRESHOLD_PER_FRAME = 18  
+REQUIRED_CONSENSUS_VOTES = 4     
 
 MODEL_DIR = "models"
 
@@ -103,10 +104,11 @@ def compute_inliers(des_login, kp_login, stored_des, stored_kps):
 
     good_matches = []
     for m, n in matches:
+        # Strict Ratio Test
         if m.distance < MATCH_RATIO * n.distance:
             good_matches.append(m)
     
-    if len(good_matches) < 6: return 0
+    if len(good_matches) < 8: return 0
 
     src_pts = np.float32([ kp_login[m.queryIdx].pt for m in good_matches ]).reshape(-1,1,2)
     dst_pts = np.float32([ stored_kps[m.trainIdx] for m in good_matches ]).reshape(-1,1,2)
@@ -137,22 +139,20 @@ async def verify_face(user_id: str = Form(...), file: UploadFile = File(...)):
         return {"status": "failed", "message": "No face detected"}
 
     votes = 0
-    total_score_sum = 0
+    
+    print(f"Verifying User {user_id}")
     
     for i, sample in enumerate(enrolled_faces):
         score = compute_inliers(des_login, kp_login, sample['des'], sample['kps'])
         
-        if score > 5:
-            # print(f"  Sample {i}: Score {score}")
-            pass
-
         if score >= INLIER_THRESHOLD_PER_FRAME:
             votes += 1
-            total_score_sum += score
+            print(f"  Sample {i}: Match! ({score} inliers)")
 
-    print(f"Votes: {votes} (Required: {REQUIRED_CONSENSUS_VOTES}) | Total Score: {total_score_sum}")
+    print(f"Total Votes: {votes} / {len(enrolled_faces)} (Required: {REQUIRED_CONSENSUS_VOTES})")
 
-    is_match = (votes >= REQUIRED_CONSENSUS_VOTES) or (total_score_sum > 35 and votes >= 1)
+    # STRICT DECISION: Must meet vote count. No score sum bypass.
+    is_match = votes >= REQUIRED_CONSENSUS_VOTES
 
     return {
         "status": "success",
@@ -165,13 +165,12 @@ async def scan_ktp(file: UploadFile = File(...)):
     if ocr is None:
         return {"status": "error", "message": "OCR Engine not loaded"}
 
-    print("Received KTP Scan Request...")
+    print("Received KTP Scan Request")
     content = await file.read()
     
     try:
         result = ocr.scan(content)
         
-        # Create a Clean Log (Hide the Base64 Image)
         log_result = result.copy()
         if "face_image" in log_result and log_result["face_image"]:
             log_result["face_image"] = "[BASE64_IMAGE_DATA_HIDDEN]"
