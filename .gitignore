@@ -2,6 +2,10 @@ models/*
 !models/haarcascade_frontalface_default.xml
 !models/
 
+For ml face/
+analyze_my_face.py
+evaluate_face.py
+
 
 # OCR datasets and outputs
 ocr_engine/dataset/
